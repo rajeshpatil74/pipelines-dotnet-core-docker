@@ -11,7 +11,7 @@ resources:
 variables:
   tag: '$(Build.BuildId)'
   dockerId: rajeshpatil74  # Replace with your Docker ID for Docker Hub or the admin user name for the Azure Container Registry
-  imageName: Newtestproj  # Replace with the name of the image you want to publish
+  imageName: newtestproj  # Replace with the name of the image you want to publish
   pswd: rajesh1234
 
 stages:
